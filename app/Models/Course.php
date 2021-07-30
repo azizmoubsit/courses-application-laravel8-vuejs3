@@ -15,7 +15,8 @@ class Course extends Model
 
     public static function booted() {
         static::creating(function ($course){
-            $course->user_id = auth()->user()->id;
+            if(auth()->user())
+                $course->user_id = auth()->user()->id;
         });
     }
 

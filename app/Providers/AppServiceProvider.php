@@ -26,6 +26,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Schema::defaultStringLength(230);
         Inertia::share([
             'errors' => function () {
                 return Session::get('errors')
