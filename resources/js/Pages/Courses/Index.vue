@@ -10,7 +10,7 @@
             <div class="mx-8 bg-white rounded shadow p-4">
                 <div class="flex justify-between items-center">
                     <div class="text-lg">{{course.title}}</div>
-                    <div class="text-sm text-gray">{{course.episodes_count}} espisodes</div>
+                    <div class="text-sm text-gray">{{course.episodes_count}} episodes</div>
                 </div>
                 <div class="text-sm text-gray-500">{{course.description}}</div>
                 <div class="flex justify-between items-center">
