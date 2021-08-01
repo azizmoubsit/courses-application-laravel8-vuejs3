@@ -1,4 +1,4 @@
-## Course list
+## Courses list
 ![alt text](./clist.png)
 ## Course info
 ![alt text](./showcourse.png)
